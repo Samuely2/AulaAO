@@ -23,7 +23,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 body {
 	line-height: 1;
 }
@@ -42,18 +42,36 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+html {
+	background-color: gray;
+}
 body {
-	font-family: "Oswald", sans-serif;
-	font-weight: 500;
+	font-family: Oswald;
 	font-style: normal;
     padding: 1em;
+	color: gray;
+	text-align: center;
 
 }
 
 .title {
     color: rgb(39, 142, 238);
+	margin: 10px;
+	background-color: rgb(139, 177, 235);
+	padding: 5px;
+	border-radius: 5px;
+
 }
 .containerEstudos {
-	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	
+}
+#paragrafos {
+	color: white;
+	margin: 3px;
+}
+hr {
+	color: blue;
 }
